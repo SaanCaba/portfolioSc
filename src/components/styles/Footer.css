@@ -1,0 +1,39 @@
+
+
+
+.container-linkedin{
+    z-index: 100;
+    object-fit: contain;
+    position: relative;
+    top: 99%;
+    left: 55%;
+    height: 30%;
+    width: 40%;
+    margin: -15% 0 0 -25%;
+    color: white;
+}
+.linkedin{
+    position: absolute;
+    cursor:pointer;
+    width: 75px;
+    left: 629px;
+    top:1200px;
+}
+
+.gmail{
+    position: absolute;
+    cursor:pointer;
+    width: 75px;
+    top: 1209px;
+    left: 429px;
+}
+
+.github{
+    position: absolute;
+    cursor:pointer;
+    width: 80px;
+    height: 80px;
+    top: 1200px;
+    left: 223px;
+}
+

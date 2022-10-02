@@ -1,0 +1,97 @@
+
+.container-aboutme{
+ /* margin-top: 350px; */
+
+ animation: div-aboutme 4s ease-in-out;
+ animation-fill-mode: forwards;
+}
+
+@keyframes div-aboutme{
+    from{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    to{
+        font-size: 25px;
+        margin-top: 350px;
+    }
+}
+
+.footer-cont{
+    position:absolute;
+    top:-240px;
+    left:613px;
+}
+
+
+.btn-home{
+    padding: 21px;
+    margin-top: 19px;
+    border:2px solid rgb(213, 202, 202);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    cursor: pointer;
+    opacity: .8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-home:hover{
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0 12px 16px 0 rgba(240, 240, 240, 0.24), 0 17px 50px 0 rgba(197, 197, 197, 0.19);
+    opacity: 1;
+    transition: 1s
+}
+
+.container-pais{
+    padding-top: 19px;
+}
+
+.p-pais{
+    font-size: 18px;
+    color: white;
+
+    animation: p-color 3s ease infinite ;
+}
+
+@keyframes p-color{
+    0%{
+        color: white;
+    }
+    50%{
+        color: rgb(140, 237, 237);
+    }
+    100%{
+        color: white;
+    }
+}
+
+
+.container-pais:hover{
+    font-size: 37px;
+    width: max-content;
+    margin: auto;
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+    transition: 2.5s;
+}
+
+
+.p-content{
+    color:rgb(255, 255, 255);
+    animation: to-green 3s ease infinite;
+
+}
+@keyframes to-green{
+   0%{
+    color: white;
+   }
+   50%{
+    color: rgb(189, 205, 110);
+   }
+   100%{
+    color: white;
+   }
+}

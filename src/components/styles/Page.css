@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 63%, rgba(129,129,129,1) 90%, rgba(129,129,129,1) 96%);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+    z-index: 1;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: rgb(244, 244, 244);
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgb(62, 63, 64),
+    0 0 50px rgb(255, 255, 255),
+    0 0 100px rgb(241, 242, 244);
+    animation: animate 15s linear infinite;
+    animation-duration: calc(155s / var(--i));
+}
+
+/* .bubbles span:hover{
+    background: rgb(27, 27, 27);
+    box-shadow: 0 0 0 10px rgb(50, 49, 49),
+    0 0 50px rgb(217, 213, 216),
+    0 0 100px rgb(220, 214, 218);
+    transition: .2s;
+} */
+
+.bubbles span:nth-child(even):hover{
+    background: rgb(244, 244, 244);
+    box-shadow: 0 0 0 10px rgb(62, 63, 64),
+    0 0 50px rgb(255, 255, 255),
+    0 0 100px rgb(241, 242, 244);
+}
+
+.bubbles span:nth-child(even){
+    background: rgb(27, 27, 27);
+    box-shadow: 0 0 0 10px rgb(50, 49, 49),
+    0 0 50px rgb(217, 213, 216),
+    0 0 100px rgb(220, 214, 218);
+}
+@keyframes animate {
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+

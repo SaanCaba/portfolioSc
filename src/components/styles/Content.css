@@ -1,0 +1,64 @@
+.containter-content{
+    z-index: 100;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    height: 30%;
+    width: 40%;
+    margin: -15% 0 0 -25%;
+    color: white;
+}
+
+.hijo{
+    display: block;
+    width: max-content;
+    height: max-content;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+
+.ft-perfil{
+    text-decoration: none;
+    position: absolute;
+    top: -35%;
+    left: 55%;
+    height: 100%;
+    width: max-content;
+    object-fit: contain;
+    border-radius: 35%;
+    filter: saturate(160%) opacity(0.8);
+} 
+
+.contenedor-content{
+    margin: auto;
+    display: table;
+}
+
+.title-contentt{
+    float: left;
+    color: white;
+}
+
+.content-span{
+    position: absolute;
+    right: 0;
+    height: 39px;
+    background-color: rgb(8, 8, 8);
+    color:rgb(235, 210, 210);
+    border-left: 1px solid black;
+
+    animation: maquina 5s infinite alternate steps(60);
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+       width: 0; 
+    }
+}
+
