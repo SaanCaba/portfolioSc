@@ -25,8 +25,8 @@ body{
 .bubbles span{
     z-index: 1;
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: rgb(244, 244, 244);
     margin: 0 4px;
     border-radius: 50%;

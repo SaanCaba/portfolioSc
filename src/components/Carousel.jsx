@@ -15,9 +15,9 @@ overflow-x:hidden;
 `
 
 const CarouselImg = styled.img`
-height:250px;
+height:200px;
 opacity: 0;
-width:250px;
+width:200px;
 margin:auto;
 transition:1s;
 &.loaded{
@@ -30,7 +30,7 @@ display:inline-block;
 margin-top:20px;
 position:absolute;
 top:15%;
-left:44.4%;
+left:45.6%;
 `
 
 const FooterContainer = styled.div`
