@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import './styles/Aboutme.css'
+import perfil from './styles/fotoperfil.jpg'
+
 
 function Aboutme() {
   return (
@@ -10,7 +12,7 @@ function Aboutme() {
       <button className='btn-home'>HOME</button>
     </Link>
     <div className='container-aboutme'>
-
+   <img className='ft-aboutme'  src={perfil} />
     <p className='p-content'>Hola a todos/as que lean esto,
      mi nombre es Santiago, y estoy en busca de nuevos desafíos, <br/>
      para poder desarrollarme dentro del mundo IT, con una primer experiencia laboral. <br/>
