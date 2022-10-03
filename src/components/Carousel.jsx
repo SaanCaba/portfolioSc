@@ -30,7 +30,7 @@ display:inline-block;
 margin-top:20px;
 position:absolute;
 top:15%;
-left:45.6%;
+left:43.6%;
 `
 
 const FooterContainer = styled.div`
