@@ -25,13 +25,13 @@ body{
 .bubbles span{
     z-index: 1;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background: rgb(244, 244, 244);
-    margin: 0 4px;
+    margin: 0 8px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px rgb(62, 63, 64),
-    0 0 50px rgb(255, 255, 255),
+    box-shadow: 0 0 0 3px rgb(62, 63, 64),
+    0 0 30px rgb(255, 255, 255),
     0 0 100px rgb(241, 242, 244);
     animation: animate 15s linear infinite;
     animation-duration: calc(155s / var(--i));
@@ -54,9 +54,9 @@ body{
 
 .bubbles span:nth-child(even){
     background: rgb(27, 27, 27);
-    box-shadow: 0 0 0 10px rgb(50, 49, 49),
-    0 0 50px rgb(217, 213, 216),
-    0 0 100px rgb(220, 214, 218);
+    box-shadow: 0 0 0 4px rgb(50, 49, 49),
+    0 0 100px rgb(217, 213, 216),
+    0 0 150px rgb(220, 214, 218);
 }
 @keyframes animate {
     0%
