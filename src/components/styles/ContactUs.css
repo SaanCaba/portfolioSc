@@ -24,13 +24,13 @@
 }
 
 form{
-    background: rgb(126,126,126);
-    background: linear-gradient(90deg, rgba(126,126,126,1) 0%, rgba(105,105,105,1) 59%, rgba(4,4,4,1) 100%);
-    border: 2px solid black;
+    background: rgb(59,59,59);
+    background: linear-gradient(90deg, rgba(59,59,59,1) 2%, rgba(36,36,36,1) 15%, rgba(4,4,4,1) 100%);
+    border: 0.3px solid black;
     border-radius: 10px;
     display: flex;
     width: max-content;
-    padding: 50px;
+    padding: 90px;
     flex-direction: column;
 }
 
@@ -100,7 +100,8 @@ form button{
 .btn-sbt{
     width: max-content;
     margin: auto;
-    padding: 17px;
+    padding: 18px;
+    margin-top: 10px;
     border-radius: 5px;
     font-size: 19px;
     font-weight: bold;
