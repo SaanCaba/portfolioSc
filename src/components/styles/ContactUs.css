@@ -25,12 +25,12 @@
 
 form{
     background: rgb(126,126,126);
-background: linear-gradient(90deg, rgba(126,126,126,1) 0%, rgba(105,105,105,1) 59%, rgba(4,4,4,1) 100%);
+    background: linear-gradient(90deg, rgba(126,126,126,1) 0%, rgba(105,105,105,1) 59%, rgba(4,4,4,1) 100%);
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
     width: max-content;
-    padding: 80px;
+    padding: 50px;
     flex-direction: column;
 }
 
