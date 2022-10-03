@@ -97,10 +97,9 @@
 }
 
 .ft-aboutme{
-position: absolute;
 width: 200px;
-border-radius: 43%;
+border-radius: 40px;
 opacity: .9;
-top: 170px;
-left: 970px;
+margin-top: -230px;
+padding-bottom: 100px;
 }
