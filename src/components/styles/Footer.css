@@ -15,7 +15,7 @@
 .linkedin{
     position: absolute;
     cursor:pointer;
-    width: 75px;
+    width: 60px;
     left: 629px;
     top:1200px;
 }
@@ -23,7 +23,7 @@
 .gmail{
     position: absolute;
     cursor:pointer;
-    width: 75px;
+    width: 60px;
     top: 1209px;
     left: 429px;
 }
@@ -31,9 +31,9 @@
 .github{
     position: absolute;
     cursor:pointer;
-    width: 80px;
+    width: 65px;
     height: 80px;
-    top: 1200px;
+    top: 1190px;
     left: 223px;
 }
 

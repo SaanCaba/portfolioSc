@@ -110,9 +110,9 @@ function Carousel() {
             <a  href='https://github.com/SaanCaba/ProyectoCalculadora'  target="_blank"  ><img className='img' src={calculadora}  /></a>
         </div>
     </div>
-    <FooterContainer>
+    <div className='footer-cont'>
     <Footer />
-    </FooterContainer>
+    </div>
     </Container>
     </div>
   )
